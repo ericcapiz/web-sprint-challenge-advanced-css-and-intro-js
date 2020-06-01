@@ -23,10 +23,34 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe preprocessing to someone new to CSS?
+
+preprocessors, like LESS, make reading css code easier. You are able to create variables and mixins to keep your code as dry as possible. (Do not Repeat Yourself). You are able to nest your code like: #section{
+    property:value;
+    property:value;
+    h1{
+        .h1() //mixin here
+    }
+    p{
+        fontsize: .8rem;
+    }
+}
+
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Favorite concept is nesting. It makes everything easier to read and saves lines of code than typing out regular css code. Variables are aweseom too. I find myself using the same css properties and it makes it easier to create varibales and call upon them when needed. Mixins with perameters still give me a bit of trouble. Its going to sound weird but i understand the concept a bit, but putting a mixin with perameters is where i get confused.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+variable is where something is stored and called upon later. Var nameOfVariable = value; console.log(nameOfVariable) would display value in the console.  
+
 4. What is the purpose of using functions in code?
+
+functions are blocks of code that are used to perform a task or calculate things for you. Lets say you have numbers that you wanna add you can write a function that could do that for you and if you need to add different numbers, you can call upon that same function. 
+
 5. What is JSON data?
+JSON is JavaScript Object Notation and its based on key and value statements in javascript.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
